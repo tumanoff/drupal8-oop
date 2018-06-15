@@ -1,35 +1,36 @@
-# Drupal 8 Object-oriented Programming Fundamentals
+# Перевод на русский язык/translating to Russian language #
 
-This tutorial is intended to help those who are new to object-oriented programming (OOP) and 
-struggling with the fundamentals needed for Drupal 8 development. Drupal 8 is a huge OOP shift 
-compared to the procedural programming of previous versions of Drupal.
+# Drupal 8 Основы объектно-ориентированного программирования
 
-Almost everything in this tutorial is specific to PHP, not necessarily Drupal. Any PHP developer may 
-find it helpful, but be aware that some of the examples and application-specific details will be based on Drupal 8.
+Этот учебник призван помочь тем, кто новичок в объектно-ориентированном программировании (ООП) и разбирается с основами, 
+необходимыми для комплексной разработки Drupal 8. 
+Drupal 8 - огромный сдвиг ООП по сравнению с процедурным программированием предыдущих версий Drupal.
 
-### Prerequisites
+Большая часть, а вернее почти все в этом учебнике относится к PHP, а не к Drupal. Любой разработчик PHP может
+найти полезные рекомендации, но нужно имейть в виду, что некоторые из примеров и конкретных приложений будут основаны на Drupal 8.
 
-Many of the topics covered are introductory, and written for a beginner, but you should have some prior PHP 
-experience. Also, this tutorial is not intended to take the place of a generic, introductory OOP tutorial. 
-This is intended to supplement any existing one, and explain some of the details you didn't understand.
+### Предпосылки
 
-### Limitations
+Многие из затронутых тем являются вводными и написаны для новичков, но желательно у вас должен быть небольшой опыт в PHP. 
+Кроме того, этот учебник не предназначен для замены универсального учебного руководства по ООП.
+Это предназначено для дополнения любого существующего и объясняет некоторые детали, которые вы не понимаете.
 
-This tutorial will not cover all use cases and minute technical details. It aims for general usage.
+### Ограничения
 
-For the Drupal folks, this is not a module development guide. This will help you in your module development, 
-but do not expect an explanation of plugins, services, and whatnot.
+Этот учебник не будет охватывать все варианты использования и минуты технических деталей. Он предназначен для общего использования.
 
-If you are using an IDE, like PHP Storm, it may alert you to problems with some of the classes. This is because it sees 
-the classes in all the directories and may think they are duplicate. The scripts themselves should run fine when 
-executing.
+Для пользователей Drupal - это не руководство по разработке модулей. Это поможет вам в разработке своего модуля,
+но не ожидайте объяснений плагинов, сервисов и много чего.
 
-The PHP files provided in this tutorial should be executable, but your results may vary. And, as always, if you find 
-any mistakes, please open an issue or create a pull request. Don't assume I know what I'm doing.&trade;
+Если вы используете среду IDE, такую как, например, PHPStorm, она поможет с предупреждениями о возникающих проблемах с некоторыми из используемых классов. Это потому, что среда видит классы во всех каталогах и может предположить, что они дублируются. 
+Сами скрипты при выполнении работают правильно.
 
-### Contents
+Файлы PHP, представленные в этом руководстве, исполняемые, но результаты могут отличаться. 
+И, как всегда, если вы найдете любые ошибки, пожалуйста, откройте проблему или создайте запрос на исправление.
 
-* 01 - Methods, properties, the arrow (`->`) and double colon (`::`) operators
+### Содержание
+
+* 01 - Методы, свойства, оператор для указания классов и объектов (`->`) и оператор разрешения области видимости (`::`) 
 * 02 - Public, protected, private, and static keywords
 * 03 - `$this` and `self`
 * 04 - `__construct` methods
